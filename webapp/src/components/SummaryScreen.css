@@ -1,0 +1,105 @@
+/* SummaryScreen.css: Styles for the test results display */
+
+.summary-screen {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.summary-screen h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.summary-screen h2 {
+  margin: 1.5rem 0 1rem;
+  color: #333;
+}
+
+.summary-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+.summary-stat {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.stat-value.highlight {
+  color: #2196f3;
+  font-size: 2rem;
+}
+
+.summary-table-container {
+  margin: 2rem 0;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.summary-table th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
+
+.summary-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.score-cell {
+  font-weight: 700;
+}
+
+.summary-actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.restart-button {
+  padding: 0.75rem 2rem;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.restart-button:hover {
+  background-color: #1976d2;
+}
+
+.summary-error {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}

@@ -1,0 +1,43 @@
+/* ScoreButtons.css: Styles for score selection UI */
+
+.score-buttons {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.score-label {
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.score-options {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.score-button {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.score-button:hover {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.score-button.selected {
+  background-color: #2196f3;
+  color: white;
+  border-color: #2196f3;
+}
